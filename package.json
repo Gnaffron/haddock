@@ -2,7 +2,7 @@
   "name": "haddock",
   "version": "0.0.1",
   "description": "CLI to define, manage and run custom testing environments",
-  "main": "haddock.js",
+  "main": "src/haddock.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,6 +25,6 @@
   "homepage": "https://github.com/Gnaffron/haddock#readme",
   "dependencies": {
     "commander": "^2.15.1",
-    "inquire": "^0.4.8"
+    "inquirer": "^5.2.0"
   }
 }
